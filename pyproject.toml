@@ -62,7 +62,7 @@ dev = [
     "pip-audit",
     "bandit",
     "build",
-    "fastapi>=0.100",
+    "fastapi>=0.138.2",
     "uvicorn>=0.20",
     "python-multipart>=0.0.5",
 ]
@@ -71,7 +71,7 @@ llm = [
     "anthropic",
 ]
 web = [
-    "fastapi>=0.100",
+    "fastapi>=0.138.2",
     "uvicorn>=0.20",
     "python-multipart>=0.0.5",
 ]
