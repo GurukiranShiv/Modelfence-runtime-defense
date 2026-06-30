@@ -1,0 +1,8 @@
+services:
+  aegisrt:
+    build: .
+    ports:
+      - "8484:8484"
+    volumes:
+      - ./.aegisrt:/app/.aegisrt
+    command: ["aegisrt", "serve"]
