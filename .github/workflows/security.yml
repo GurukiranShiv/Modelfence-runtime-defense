@@ -30,7 +30,7 @@ jobs:
       - name: Static audit with aegisRT
         run: aegisrt audit aegisrt --format sarif --output .aegisrt/audit.sarif.json || true
       - name: Upload SARIF
-        uses: github/codeql-action/upload-sarif@v3
+        uses: github/codeql-action/upload-sarif@v4
         if: always() && hashFiles('.aegisrt/audit.sarif.json') != ''
         with:
           sarif_file: .aegisrt/audit.sarif.json
