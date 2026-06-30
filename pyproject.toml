@@ -63,7 +63,7 @@ dev = [
     "bandit",
     "build",
     "fastapi>=0.100",
-    "uvicorn>=0.20",
+    "uvicorn>=0.49.0",
     "python-multipart>=0.0.5",
 ]
 llm = [
@@ -72,7 +72,7 @@ llm = [
 ]
 web = [
     "fastapi>=0.100",
-    "uvicorn>=0.20",
+    "uvicorn>=0.49.0",
     "python-multipart>=0.0.5",
 ]
 
